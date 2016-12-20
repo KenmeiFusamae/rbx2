@@ -9,7 +9,7 @@
 
     <!-- gripper joint -->
     <dynamixel_AX12_fixed parent="${parent}" name="${side}_gripper_base">
-      <origin xyz="0.02275 -0.01 0" rpy="${PI/2} 0 0" />
+      <origin xyz="-0.02275 0 ${-AX12_WIDTH/2}" rpy="0 ${PI/2} ${PI}" />
     </dynamixel_AX12_fixed>
 
     <!-- finger 1 -->
